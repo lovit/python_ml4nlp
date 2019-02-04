@@ -13,9 +13,3 @@ pip install scikit-learn
 
 git clone https://github.com/lovit/soynlp/
 ```
-
-3. [konlpy >= 0.5.1](https://github.com/konlpy/konlpy/)
-
-```
-pip install konlpy
-```
