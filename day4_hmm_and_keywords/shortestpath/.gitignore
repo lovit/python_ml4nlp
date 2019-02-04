@@ -1,0 +1,17 @@
+cOS
+.DS_Store
+
+# Python
+*.pyc
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Experiments
+tmp/
+config.py
+*.pkl
+
+# Jupyter notebook
+.ipynb_checkpoints/
