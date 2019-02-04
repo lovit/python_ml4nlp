@@ -6,13 +6,13 @@
 git clone https://github.com/lovit/textmining_dataset
 ```
 
-1. [konlpy >= 0.5.1](https://github.com/konlpy/konlpy/)
+2. [konlpy >= 0.5.1](https://github.com/konlpy/konlpy/)
 
 ```
 pip install konlpy
 ```
 
-1. [Scikit-learn](https://scikit-learn.org/)
+3. [Scikit-learn](https://scikit-learn.org/)
 
 ```
 pip install scikit-learn
