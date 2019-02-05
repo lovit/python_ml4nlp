@@ -15,7 +15,7 @@ pip install soynlp
 git clone https://github.com/lovit/soynlp
 ```
 
-3. [Gensim >= 3.6.0](https://radimrehurek.com/gensim/
+3. [Gensim >= 3.6.0](https://radimrehurek.com/gensim/)
 
 ```
 pip install gensim
