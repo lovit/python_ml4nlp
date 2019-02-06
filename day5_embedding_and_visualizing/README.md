@@ -10,7 +10,15 @@ Day 5 에서는 Gensim 을 이용하여 Word2Vec, FastText 와 같은 word embed
 
 `day_5_4_fasttext_gensim` 에서는 Gensim 의 FastText 를 한국어에 적용합니다. 이를 위해서는 한글의 한 글자를 초/중/종성으로 분리/조합해야 합니다. 이에 대한 연습을 합니다.
 
-`appendix_word2vec_news_embedding_(space_tokenization)` 에서는 띄어쓰기 기준으로 토크나이징을 하여 Word2Vec 을 학습합니다. 토크나이징을 하지 않으면 어절 간의 유사어가 학습됩니다. 토크나이저의 필요성에 대하여 생각할 수 있는 예시입니다. 이를 확인해 봅니다.
+`day_5_a_word2vec_news_embedding_(space_tokenization)` 에서는 띄어쓰기 기준으로 토크나이징을 하여 Word2Vec 을 학습합니다. 토크나이징을 하지 않으면 어절 간의 유사어가 학습됩니다. 토크나이저의 필요성에 대하여 생각할 수 있는 예시입니다. 이를 확인해 봅니다.
+
+### Explicit word representation
+
+Levy and Goldberg (2014) 는 Word2Vec 의 negative sampling 을 이용하는 Skip-gram 은 word - context cooccurrence matrix 에 PMI 를 적용한 것과 같음을 확인하였습니다. `day_5_5_explicit_word_representation_(pmi_svd)` 은 Levy and Goldberg (2014) 의 내용을 구현합니다.
+
+이를 위해서는 co-occurrence matrix 를 만들 수 있어야 합니다. 이의 내용은 `day_5_a_cooccurrence_matrix` 에서 연습할 수 있습니다.
+
+- Levy, O., & Goldberg, Y. (2014). Neural word embedding as implicit matrix factorization. In Advances in neural information processing systems (pp. 2177-2185).
 
 ### Vector visualization (Plotting)
 
