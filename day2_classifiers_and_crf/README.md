@@ -34,13 +34,19 @@ Conditional Random Field (CRF) 는 sparse representation 을 이용하는 sequen
 git clone https://github.com/lovit/textmining_dataset
 ```
 
-2. [pycrfsuite_spacing >= 1.0.0](https://github.com/lovit/pycrfsuite_spacing)
+2. [python_crfsuite](https://github.com/scrapinghub/python-crfsuite)
+
+```
+pip install python-crfsuite
+```
+
+3. [pycrfsuite_spacing >= 1.0.0](https://github.com/lovit/pycrfsuite_spacing)
 
 ```
 pip install pycrfsuite_spacing
 ```
 
-3. [Scikit-learn](https://scikit-learn.org/)
+4. [Scikit-learn](https://scikit-learn.org/)
 
 ```
 pip install scikit-learn
