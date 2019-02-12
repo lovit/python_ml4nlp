@@ -4,13 +4,15 @@ Day 5 에서는 Gensim 을 이용하여 Word2Vec, FastText 와 같은 word embed
 
 또한 고차원의 벡터를 2 차원으로 압축함으로써 고차원의 벡터를 시각화하는 방법들을 알아봅니다. 또한 plotting 툴로 matplotlib 대신 Bokeh 를 이용합니다. matplotlib 은 제안된지 오래되기도 하였으며 고정된 그림밖에 그릴 수 없습니다. 하지만 최근에 구현된 Plotly 나 Bokeh 는 Java Script 를 이용하여 동적인 plots 그려줍니다.
 
-### Word2Vec, Doc2Vec
+### Word2Vec, Doc2Vec, FastText
 
 `day_5_0_word2vec_and_doc2vec_moviereview_(gensim_3.6)` 에서는 Gensim 을 이용하여 Word2Vec 과 Doc2Vec 을 학습합니다. 응용에 필요한 parameters 의 위치를 확인하는 연습까지 합니다.
 
 `day_5_4_fasttext_gensim` 에서는 Gensim 의 FastText 를 한국어에 적용합니다. 이를 위해서는 한글의 한 글자를 초/중/종성으로 분리/조합해야 합니다. 이에 대한 연습을 합니다.
 
 `day_5_a_word2vec_news_embedding_(space_tokenization)` 에서는 띄어쓰기 기준으로 토크나이징을 하여 Word2Vec 을 학습합니다. 토크나이징을 하지 않으면 어절 간의 유사어가 학습됩니다. 토크나이저의 필요성에 대하여 생각할 수 있는 예시입니다. 이를 확인해 봅니다.
+
+`day_5_a_fasttext_facebook.ipynb` 에서는 Facebook Research 에서 배포한 fasttext 패키지를 이용하여 unsupervised, supervised FastText 를 모두 학습합니다.
 
 ### Explicit word representation
 
