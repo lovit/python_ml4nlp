@@ -1,0 +1,19 @@
+# pyLDAvis source
+pyLDAvis/
+
+# MacOS
+.DS_Store
+
+# Python
+*.pyc
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Experiments
+tmp/
+data/*
+
+# Jupyter notebook
+.ipynb_checkpoints/
