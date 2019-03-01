@@ -32,9 +32,14 @@ pip install krwordrank
 git clone https://github.com/lovit/soygraph
 ```
 
-
 3. [TextRank](https://github.com/lovit/textrank)
 
 ```
 git clone https://github.com/lovit/textrank
+```
+
+4. [WordCloud](https://github.com/lovit/textrank)
+
+```
+pip install wordcloud
 ```
