@@ -18,6 +18,8 @@ Unsupervised word extraction 을 위하여 Cohesion score, Branching Entropy, Ac
 
 `day_3_2_WordPieceModel` 에서는 원 논문에서 제공하는 코드를 이용하여 WPM 을 학습합니다. 하루치 뉴스 기사에 적용해 봄으로써 WPM 이 학습하는 subwords 들에 대해서도 살펴봅니다.
 
+`day_3_2_sentencepiece_(google_package)` 에서는 Google 에서 공개한 코드를 이용하여 WPM 을 학습합니다. Sentencepiece 라는 패키지 이름으로 공개되었습니다. 계산 과정이 최적화되어 있고, C++ 로 구현되어 있기 때문에 실제로 사용할 때에는 이를 이용하면 좋습니다.
+
 ## Requirements
 
 이 실습 코드에서는 아래의 외부 패키지를 이용합니다.
